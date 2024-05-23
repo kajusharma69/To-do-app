@@ -1,0 +1,89 @@
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+  
+}
+
+html,body{
+  background-image: url('https://images.unsplash.com/photo-1568301956237-25a54f5f0d21?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  
+}
+
+.container{
+  width: 360px;
+  padding: 33px;
+  text-align: center;
+  margin-left: 33%;
+  margin-top: 5px;
+  background-color: #000000b3;
+  color:rgb(4, 165, 246);
+  border:2px solid rgb(4, 165, 246);
+  border-radius: 10px;
+  
+}
+
+.container h1:hover{
+  font-weight: 400;
+  color: aliceblue  ;
+}
+
+.container h1{
+  font-family: fantasy;
+}
+
+.container:hover{
+  background-color: #00000076;
+}
+
+input{
+  width: 270px;
+  padding: 8px;
+  border:2px solid rgb(4, 165, 246);
+  outline: none ;
+  font-size: 19px;
+  border-radius: 10px;
+ 
+
+}
+
+button{
+width: 60px;
+height: 41px;
+color: #000;
+border-radius: 2px;
+background-color: rgba(15, 161, 235, 0.724);
+border: none;
+font-size: 19px;
+outline: none;
+cursor: pointer;
+border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgba(4, 165, 246, 0.979);
+}
+
+.text ol{
+  position: relative;
+  background-color:  rgb(4, 165, 246);
+  color: #fff;
+  font-size: 19px;
+  text-align: left;
+  padding: 9px;
+  border-radius: 10px;
+
+}
+.text ol i{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.text ol i:hover{
+  color: #000;
+}
+
+/*-------------------------COMPLETED-----------------------------*/
+
+
+
